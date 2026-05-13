@@ -1,0 +1,14 @@
+.{
+    .name = .openblas,
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0x9bb29d3c93d77ea9,
+    .version = "0.3.33",
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}

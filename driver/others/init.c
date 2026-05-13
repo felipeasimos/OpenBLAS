@@ -1042,7 +1042,7 @@ void gotoblas_set_affinity2(int threads) {};
 
 void gotoblas_affinity_reschedule(void) {};
 
-int get_num_procs(void) { int num = sysconf(_SC_NPROCESSORS_CONF); return (nums >0 ? nums : 2); }
+int get_num_procs(void) { int num = sysconf(_SC_NPROCESSORS_CONF); return (num >0 ? num : 2); }
 
 int get_num_nodes(void) { return 1; }
 

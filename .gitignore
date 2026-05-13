@@ -118,3 +118,7 @@ CMakeCache.txt
 CMakeFiles/*
 .vscode
 **/__pycache__
+.zig-cache/
+zig-out/
+!build.zig
+!build.zig.zon
